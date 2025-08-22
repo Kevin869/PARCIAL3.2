@@ -31,14 +31,14 @@ def probar_contrasenas():
 
             
             if respuesta.status_code == 200:
-                print(f"✅ Login exitoso con contrasena: {contrasena}\n")
+                print(f" Login exitoso con contrasena: {contrasena}\n")
             else:
-                print(f"❌ Fallo con contrasena: {contrasena}\n")
+                print(f" Fallo con contrasena: {contrasena}\n")
 
     except FileNotFoundError:
-        print("⚠️ Error: El archivo 'contrasenas.txt' no existe.")
+        print(" Error: El archivo 'contrasenas.txt' no existe.")
     except requests.exceptions.RequestException as e:
-        print(f"⚠️ Error en la conexion: {e}")
+        print(f" Error en la conexion: {e}")
     except Exception as e:
         print(f"⚠️ Error inesperado: {e}")
 
