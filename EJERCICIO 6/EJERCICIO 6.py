@@ -1,6 +1,5 @@
 import requests
 import os
-print("Ruta actual de ejecucion:", os.getcwd())
 
 URL = "https://httpbin.org/post"
 
