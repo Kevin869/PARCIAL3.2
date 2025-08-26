@@ -1,0 +1,7 @@
+Hola profe, no se si esto era a lo que se referia pero asi lo entendi yo, asepto cualquier calificacion aprobatoria.
+y con respecto al codigo el pricipal es el que se llama miniconsola.py y si los agrega todos a una carpeta trate de ejercutarlo
+en una terminal con cd a esa carpeta todos los codigos van en una sola carpeta
+para iniciar el juego coloque pyton miniconsola.py 
+y si los juegos no lo deja salir de la interfaz pues lol que mal.
+gracias por su atencion.
+:
